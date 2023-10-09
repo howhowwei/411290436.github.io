@@ -345,16 +345,6 @@ body {
   background-size: cover;
   z-index: -1;
 }
-#fgo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 50%;
-  background: url("images/fgo.jpg") center #000;
-  background-size: cover;
-  z-index: -1;
-}
 #header-title {
   text-align: center;
   height: 40px;
