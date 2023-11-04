@@ -204,6 +204,34 @@
     
     </body>
   
+    <html>
+      <head>
+      <meta charset="utf-8">
+      <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+      </script>
+      <script> 
+      $(document).ready(function(){
+        $("button").click(function(){
+          var div=$("div");
+          div.animate({height:'300px',opacity:'0.4'},"slow");
+          div.animate({width:'300px',opacity:'0.8'},"slow");
+          div.animate({height:'100px',opacity:'0.4'},"slow");
+          div.animate({width:'100px',opacity:'0.8'},"slow");
+        });
+      });
+      </script> 
+      </head>
+       
+      <body>
+      <button>戳我一下</button>
+      <p>他會一直亂動你不覺得很酷嗎?</p>
+      <div style="background:#98bf21;height:100px;width:100px;position:absolute;">
+      </div>
+      
+      </body>
+    </html>
+
+
 </div>
   
 </aside>
