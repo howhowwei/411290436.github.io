@@ -169,18 +169,7 @@
     </div>
   </div>
 
-  <script>
-    $(document).ready(function() {
-      $("#target1").css("color", "red");
-      $("#target1").prop("disabled", true);
-      $("#target4").remove();
-      $("#target2").appendTo("#right-well");
-      $("#target5").clone().appendTo("#left-well");
-      $("#target1").parent().css("background-color", "red");
-      $("#right-well").children().css("color", "orange");
 
-    });
-  </script>
   
   <div class="container-fluid">
     <h3 class="text-primary text-center">jQuery Playground</h3>
@@ -203,6 +192,19 @@
       </div>
     </div>
   </div>
+  
+  <script>
+    $(document).ready(function() {
+      $("#target1").css("color", "red");
+      $("#target1").prop("disabled", true);
+      $("#target4").remove();
+      $("#target2").appendTo("#right-well");
+      $("#target5").clone().appendTo("#left-well");
+      $("#target1").parent().css("background-color", "red");
+      $("#right-well").children().css("color", "orange");
+
+    });
+  </script>
   
 </div>
   
